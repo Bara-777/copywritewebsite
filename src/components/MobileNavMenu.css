@@ -1,0 +1,42 @@
+.mobileNavBar{
+    margin: 3rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.mobileNavUl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobileOption{
+    margin: 3rem 0;
+    font-size: 1.5rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.mobileLetsChat{
+    color: #2AD881;
+    border: 2px solid #2AD881;
+    padding: .5em;
+    border-radius: 2em;
+    white-space: nowrap;
+    transition: background-color 1s ease;
+}
+
+.mobileLetsChat:hover{
+    background-color: #2AD881;
+    color: #fff; 
+}
+
+@media (min-width:750px){
+    .mobileNavBar{
+        display: none;
+    }
+}

@@ -1,0 +1,68 @@
+footer{
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+    overflow: hidden;
+}
+
+.callToActionFtr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid gray;
+    padding: 10vh 3vw;
+}
+
+.letsWorkTogether{
+    font-size: 2rem;
+    font-family: poly;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+.letsChatFTR{
+    color: gray;
+    cursor: pointer;
+}
+
+.contactInfo{
+    display: flex;
+    gap: 5vw;
+    padding: 0 5vw;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column; 
+}
+
+.menuOption{
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.menuTitle{
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactTitle{
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+@media ( max-width: 900px){
+    footer{
+        flex-direction: column
+    }
+
+    .callToActionFtr{
+        border-right: none;
+    }
+}

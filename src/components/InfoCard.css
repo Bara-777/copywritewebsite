@@ -1,0 +1,22 @@
+.cardCont{
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    border-radius: 1rem;
+    border: 2px solid rgb(219, 219, 219);
+    gap: 2em;
+}
+
+.cardTitle{
+    font-size: 1.61em;
+}
+
+.cardText{
+    color: gray;
+}
+
+.learnMore{
+    color: blue;
+    cursor: pointer;
+}

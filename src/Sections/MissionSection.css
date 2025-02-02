@@ -1,0 +1,56 @@
+.missionSection{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: fit-content;
+}
+
+
+.missionPic{
+    display: block;
+    width: 50%;
+    height: 40rem;
+}
+
+
+
+.missionTxt{
+    padding: 2rem 3rem;
+    background-color: red;
+}
+
+.missionTitle{
+    white-space: nowrap;
+    margin: 0;
+}
+
+.mission{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: poly;
+}
+
+
+@media (max-width:600px){
+    .mission{
+        font-size: 1.5rem;
+    }
+}
+
+.letsChatMission{
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius:5rem;
+    padding: .75rem;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.letsChatMission:hover{
+    background-color: #fff;
+    color: black;
+    transition: background-color 1s ease-in;
+    transition: color 1s ease-in;
+}

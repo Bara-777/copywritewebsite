@@ -1,0 +1,21 @@
+.serviceCont{
+    border-radius: 1rem;
+    border: 2px solid rgb(219, 219, 219);
+    margin: 2rem 0;
+    width: 20rem;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width:600px){
+    .serviceCont{
+        width: 15rem
+    }
+}
+
+.serviceDescription{
+    color: gray;
+}

@@ -1,0 +1,110 @@
+.heroTextCont{
+    font-size: 3rem;
+    height: 3em;
+    display: flex;
+    gap: .25em;
+    margin-top: 25vh;
+}
+
+@media (max-width:500px){
+    .heroTextCont{
+        font-size: 2rem;
+    }
+}
+
+
+.heroTextCont{
+    position: relative;
+}
+
+.word1Cont{
+    position: relative;
+    width: 5em;
+    height: 2em;
+}
+
+.word1{
+    position: absolute;
+    left: 0;
+    animation: rotateWord1 16s ease-in infinite; 
+    opacity: 0;
+}
+
+.word1:nth-child(2){
+    animation-delay: 4s;
+}
+
+.word1:nth-child(3){
+    animation-delay: 8s;
+}
+
+.word1:nth-child(4){
+    animation-delay: 12s;
+}
+
+.word2{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    opacity: 0;
+    animation: rotateWord2 13s ease-in infinite;
+}
+
+.word2:nth-child(1){
+    animation-delay: 1s;
+}
+
+.word2:nth-child(2){
+    animation-delay: 5s;
+}
+
+.word2:nth-child(3){
+    animation-delay: 9s;
+}
+
+
+
+@keyframes rotateWord1{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes rotateWord2{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0; 
+    }
+}
+
+.links{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.linkedIn, .instagram{
+    background-color: #000;
+    border-radius: 100%;
+    width: fit-content;
+    height: fit-content;
+    color: #fff;
+    padding: .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer
+}

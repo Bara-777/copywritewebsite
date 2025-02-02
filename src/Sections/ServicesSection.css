@@ -1,0 +1,23 @@
+.servicesSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin: 10rem 0;
+
+}
+
+.servicesCards{
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width:1000px){
+    .servicesCards{
+        flex-direction: column;
+    }
+}
+
+.servicesectionTitle{
+    color: gray;
+}

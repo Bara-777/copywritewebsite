@@ -1,0 +1,72 @@
+header{
+    padding:1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    font-size: 1.75rem;
+    font-weight: 500;
+    white-space: nowrap
+}
+
+@media (max-width:600px){
+    .name{
+        font-size: 1.25rem;
+    }
+}
+
+.navUl{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap:2em;
+    list-style: none;
+}
+
+.about, .services, .work, .letsChat{
+    font-size: 1.25em;
+    user-select: none;
+    cursor: pointer;
+}
+
+.about:hover, .services:hover, .work:hover, .letsChat:hover{
+    border-bottom: 3px solid #2AD881;
+}
+
+.letsChat{
+    color: #2AD881;
+    border: 2px solid #2AD881;
+    padding: .5em;
+    border-radius: 2em;
+    transition: background-color 1s;
+    white-space: nowrap;
+}
+
+.letsChat:hover{
+    background-color: #2AD881;
+    color: #fff; 
+}
+
+.menuIcon{
+    display: none;
+    cursor: pointer;    
+}
+
+@media (max-width:900px){
+    .navBar{
+        display: none;
+    }
+}
+
+@media (max-width: 750px){
+
+    .menuIcon{
+        display: flex;
+    }
+
+    .navBar{
+        display: none;
+    }
+}

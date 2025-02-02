@@ -1,0 +1,28 @@
+.workSectionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardsCont{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto;
+}
+
+.workSecTitle{
+    color: gray;
+    margin: 2rem 0;
+}
+
+.info{
+    margin: 2rem 0;
+}
+
+
+@media (max-width: 850px){
+    .cardsCont{
+        display: block
+    }
+}
