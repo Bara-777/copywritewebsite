@@ -3,7 +3,7 @@ import "./AboutSection.css"
 export default function AboutSection({AboutSec}){
     return <div className='aboutSection' ref={AboutSec}>
         <span className='aboutSectionTitle'>About</span>
-        <span className='superHeroOrigintxt'>Superhero Orgins</span>
+        <span className='superHeroOrigintxt'>Superhero Origins</span>
         <span className='titles'>writer, storyteller</span> 
         <div className='aboutContent'>
         <p>
