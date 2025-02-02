@@ -48,6 +48,7 @@ function App() {
         </div>
         <CardsSection scrollToAboutSection = {scrollToAboutSection} scrollToServicesSection = {scrollToServicesSection} scrollToWorkSection={scrollToWorkSection}/>
         <AboutSection AboutSec = {AboutSec} />
+        <MissionSection />
         <ServicesSection ServicesSec = {ServicesSec}/>
         <WorkSection WorkSec={WorkSec}/>
         <div className="letsTalkAboutUrProject">Let's talk about your project</div>
