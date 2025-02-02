@@ -5,7 +5,11 @@
     align-items: center;
     color: #fff;
     height: fit-content;
-    margin: 2rem 0;
+
+    margin: 5rem 0;
+=======
+    box-sizing: border-box;
+
 }
 
 
@@ -13,12 +17,25 @@
     display: block;
     width: 50%;
     height: 40rem;
+    box-sizing: border-box;
 }
-
 
 
 .missionTxt{
     padding: 2rem 3rem;
+}
+
+@media (max-width:800px){
+    .missionSection{
+        flex-direction: column;
+    }
+
+    .missionPic{
+        width: 100%;
+    }
+    .missionTxt{
+        padding: 1rem;
+    }
 }
 
 .missionTitle{
