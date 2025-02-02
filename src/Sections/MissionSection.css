@@ -5,7 +5,11 @@
     align-items: center;
     color: #fff;
     height: fit-content;
+
+    margin: 5rem 0;
+=======
     box-sizing: border-box;
+
 }
 
 
